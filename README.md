@@ -20,11 +20,10 @@ project documentation
 4  Database Design Process
 
 4.1  Requirements Specification
-I started by specifying the requirements for my database.
-The database must be able to:
+
+Specs - The database must be able to: 
 •	store data about US stocks listed on Nasdaq
 •	store price/volume data, fundamental data, and general identifying data for each stock
-•	retroactively allow the addition of other types of financial instruments and fundamental data
 •	easily join all data about a stock when queried
 •	easily update to reflect new information
 •	be queried with SQL and Python
